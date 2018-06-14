@@ -19,7 +19,7 @@ Enter password: (the one we just set) <br />
 
 ### Modify remote connection privileges
 (username: 'root', host: local computer IP) <br />
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'username'@'host'; <br />
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'username'@'host' IDENTIFIED BY 'password'; <br />
 mysql> FLUSH PRIVILEGES; <br />
 <br />
 
