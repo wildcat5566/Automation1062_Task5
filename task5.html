@@ -1,0 +1,42 @@
+<!DOCTYPE html>                                             <!-- This is a comment -->
+<html lang="en">
+
+<title>Task5</title>                                        <!-- Web Page Title -->
+<body>
+<h1 align="center">Task5</h1>                               <!-- h1: Large Title -->
+
+<style>                                                     <!-- Style settings, optional -->
+table, th, td {                                             <!-- Style settings for our table -->
+    border: 1px solid black;
+}
+</style>
+<h3 align="center"> Family Member Information Query </h3>   <!-- h3: Small Title -->
+
+<table border="1" cellpadding="2" cellspacing="2" align="center">  <!-- Our display table -->
+    <tr>                                                           <!-- First table row -->
+        <th>Property</th>
+    </tr>
+    <tr align="center">                                            <!-- Second table row -->
+        <td>
+        <form action="/" method='post' name='form1'>               <!-- Form: connect to 'post' action -->
+            <select name="member">                                 <!-- Select list for variable "member" -->
+                <option value="James">Dad</option>                 <!-- Options for "member" -->
+                <option value="Tiffany">Mom</option>
+                <option value="Angela">Sister</option>
+                <option value="Albert">Brother</option>
+                <option value="Alice">Dog</option>
+            </select>
+
+            <select name="prop">                                   <!-- Select list for variable "prop" -->
+                <option value="age">Age</option>
+                <option value="birthday">Birthday</option>
+                <option value="job">Job</option>
+            </select>
+            <input type="submit" value="Submit">                   <!-- Submit button -->
+        </form></td>
+
+    </tr>
+</table>
+</body>
+</html>
+
